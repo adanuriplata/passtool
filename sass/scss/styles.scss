@@ -1,0 +1,18 @@
+//Aqui se guardaran los componentes del proyecto
+
+// Estilos base
+
+//config
+@import "config";
+
+// Estilos bases
+@import "base/base";
+
+//layout
+@import "layout/layout";
+// Modules
+@import "modules/login";
+//componentess
+
+@import "components/buttons";
+@import "components/alerts";

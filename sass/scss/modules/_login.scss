@@ -1,0 +1,49 @@
+.login {
+  //width: 80%;
+  text-align: center;
+  padding: 1em;
+  &__title{
+    color: color('blanco');
+    font-size: $big;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+    span{
+      color: color('azul-produndo-cielo');
+    }
+  }
+  &__description {
+    font-family: $second-font;
+    color: color('gris-claro');
+  }
+  &__ico {
+    font-size: 3em;
+    color: color('gris-oscuro');
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+  }
+  &__form {
+
+    &__input {
+      font-size: $form;
+      padding: .5em;
+      display: flex;
+      margin: 0 auto;
+      input{
+        background: color('gris-claro');
+        padding: .5em;
+        border: none;
+        width: 100%;
+        font-size: $form-input;
+        color: color('azul-medio');
+      }
+      &__i {
+        background: color('gris-claro');
+        padding: .5em;
+        font-size: $form-input;
+        color: color('azul-medio');
+      }
+      &__btn{
+        margin-top: 1em;
+      }
+    }
+
+  }
+}

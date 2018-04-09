@@ -1,0 +1,14 @@
+.warning {
+  background: color('warning');
+  padding: .3em .5em ;
+  color: color('gris-oscuro');
+  border-radius: .4em;
+  margin: .5em;
+  i {
+    color: orange;
+    font-size: 1.2em;
+  }
+  p {
+    margin: .2em;
+  }
+}

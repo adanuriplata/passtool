@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c3e50;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3498db, #2c3e50);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  text-align: center;
+  padding: 1em;
+}
+
+.login__title {
+  color: #ffffff;
+  font-size: 2.625em;
+  text-shadow: 1px 1px 0 rgba(140, 140, 140, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.login__title span {
+  color: deepskyblue;
+}
+
+.login__description {
+  font-family: "Ubuntu", sans-serif;
+  color: #CFD3DE;
+}
+
+.login__ico {
+  font-size: 3em;
+  color: #19242B;
+  text-shadow: 1px 1px 0 rgba(140, 140, 140, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.login__form__input {
+  font-size: 1.09375em;
+  padding: .5em;
+  display: flex;
+  margin: 0 auto;
+}
+
+.login__form__input input {
+  background: #CFD3DE;
+  padding: .5em;
+  border: none;
+  width: 100%;
+  font-size: 0.91875em;
+  color: #006BAB;
+}
+
+.login__form__input__i {
+  background: #CFD3DE;
+  padding: .5em;
+  font-size: 0.91875em;
+  color: #006BAB;
+}
+
+.login__form__input__btn {
+  margin-top: 1em;
+}
+
+.button {
+  font-family: "Ubuntu", sans-serif;
+  padding: .8em 3em;
+  color: #19242B;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-go {
+  background: #18A37A;
+}
+
+.btn-go:hover {
+  background: #44BE8B;
+}
+
+.warning {
+  background: #FFF7C7;
+  padding: .3em .5em;
+  color: #19242B;
+  border-radius: .4em;
+  margin: .5em;
+}
+
+.warning i {
+  color: orange;
+  font-size: 1.2em;
+}
+
+.warning p {
+  margin: .2em;
+}
+
+/*# sourceMappingURL=styles.css.map */

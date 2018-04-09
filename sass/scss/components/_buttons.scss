@@ -1,0 +1,14 @@
+.button{
+  font-family: $second-font;
+  padding: .8em 3em;
+  color: color('gris-oscuro');
+  border: none;
+  cursor: pointer;
+}
+
+.btn-go {
+  background: color('verde-go');
+  &:hover{
+    background: color('verde-go-hover');
+  }
+}
