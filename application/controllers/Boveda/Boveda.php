@@ -20,6 +20,7 @@ class Boveda extends CI_Controller {
 
         $this->load->view('layouts/header');
         $this->load->view('layouts/sidebar');
+        $this->load->view('users/dashboard');
         $this->load->view('users/boveda', $data);
         $this->load->view('layouts/footer');
 

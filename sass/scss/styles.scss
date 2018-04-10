@@ -10,6 +10,7 @@
 
 //layout
 @import "layout/layout";
+@import "layout/layout-content";
 // Modules
 @import "modules/login";
 @import "modules/sidebar";
@@ -17,3 +18,4 @@
 
 @import "components/buttons";
 @import "components/alerts";
+@import "components/content-items";

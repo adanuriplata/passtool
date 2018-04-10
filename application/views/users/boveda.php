@@ -1,6 +1,6 @@
-<div class="boveda">
-    <h1>Boveda de passwords</h1>
-    <a href="<?php echo base_url();?>boveda/boveda/add" class="boveda__button-add">Agregar Cuenta</a>
+<div class="dashboard__boveda grid-boveda content-item">
+    <div class="content-item__title"><a href="<?php echo base_url();?>boveda/boveda/add" class="boveda__button-add"><i class="fas fa-list-ol"></i> Lista de Cuentas</a></div>
+
     <table class="boveda_table">
         <thead>
             <th>#</th>
@@ -25,4 +25,5 @@
         <?php endforeach; ?>
         </tbody>
     </table>
+</div>
 </div>

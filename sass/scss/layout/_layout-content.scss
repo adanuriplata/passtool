@@ -1,0 +1,20 @@
+.grid-main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+          "add boveda"
+          "stats boveda";
+  padding: 20px 10px 0 0;
+}
+.grid-add{
+  grid-area: add;
+}
+
+.grid-boveda {
+  grid-area: boveda;
+}
+
+.grid-stats{
+  grid-area: stats;
+}

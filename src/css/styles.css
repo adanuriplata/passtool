@@ -29,7 +29,7 @@ body {
 
 .grid-wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: 200px 1fr;
   grid-template-areas: "sidebar main" "sidebar footer";
   height: 100vh;
@@ -45,6 +45,26 @@ body {
 
 .grid-footer {
   grid-area: footer;
+}
+
+.grid-main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "add boveda" "stats boveda";
+  padding: 20px 10px 0 0;
+}
+
+.grid-add {
+  grid-area: add;
+}
+
+.grid-boveda {
+  grid-area: boveda;
+}
+
+.grid-stats {
+  grid-area: stats;
 }
 
 .wrapper {
@@ -108,7 +128,11 @@ body {
 }
 
 .sidebar {
-  background: #19242B;
+  background: #141E30;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #CFD3DE;
   height: 100vh;
 }
@@ -213,6 +237,27 @@ body {
 
 .warning p {
   margin: .2em;
+}
+
+.content-item {
+  background: #CFD3DE;
+  font-size: 1.18125em;
+  text-transform: uppercase;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.content-item__title {
+  padding: 10px;
+  background: #3a7bd5;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a6073, #3a7bd5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content-item a {
+  color: #CFD3DE;
 }
 
 /*# sourceMappingURL=styles.css.map */
