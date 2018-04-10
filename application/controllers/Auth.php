@@ -10,8 +10,9 @@ class Auth extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('layouts/header');
+        $this->load->view('layouts/header-login');
         $this->load->view('admin/login');
+        $this->load->view('layouts/footer');
     }
 
 

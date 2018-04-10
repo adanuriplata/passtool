@@ -11,5 +11,3 @@
     <title>Document</title>
 </head>
 <body>
-<div class="grid-wrapper">
-

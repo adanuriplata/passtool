@@ -21,6 +21,8 @@ class Boveda extends CI_Controller {
         $this->load->view('layouts/header');
         $this->load->view('layouts/sidebar');
         $this->load->view('users/boveda', $data);
+        $this->load->view('layouts/footer');
+
     }
 
     public function add() {
@@ -30,6 +32,7 @@ class Boveda extends CI_Controller {
         $this->load->view('layouts/header');
         $this->load->view('layouts/sidebar');
         $this->load->view('users/boveda/add');
+        $this->load->view('layouts/footer');
     }
 
     public function edit($id) {
@@ -38,5 +41,6 @@ class Boveda extends CI_Controller {
         );
         $this->load->view('layouts/header');
         $this->load->view('users/boveda/edit', $data);
+        $this->load->view('layouts/footer');
     }
 }

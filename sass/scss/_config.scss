@@ -24,6 +24,7 @@ $gutter: 1em;
 
 
 $font-size: em(14px);
+$small: $font-size -2px;
 $h3-size: $font-size * 1.15;
 $h2-size: $font-size * 1.35;
 $h1-size: $font-size * 1.7;
@@ -54,6 +55,7 @@ $colors: (
         rojo-claro: #FF4946,
         gris-oscuro: #19242B,
         gris-claro: #CFD3DE,
+        gris: gray,
         success: #00CB30,
         blanco: #ffffff,
         verde-go: #18A37A,

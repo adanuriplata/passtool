@@ -1,7 +1,22 @@
-.wrapper {
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+          "sidebar main"
+          "sidebar footer";
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //height: 100vh;
+}
+
+.grid-sidebar{
+  grid-area: sidebar;
+}
+
+.grid-main {
+  grid-area: main;
+}
+
+.grid-footer{
+  grid-area: footer;
 }
